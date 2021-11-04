@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="public/js/brojac.js"defer></script>
     <title>Tim 11 - Osiguranje</title>
   </head>
   <body>
@@ -38,7 +39,7 @@
     <div class="razmak"></div>
     <div class="razmak"></div>
     <div class="razmak"></div>
-    <div class="containter-fluid">
+    <div class="containter-fluid overflow-hidden">
       <div class="row">
         <div class="col-4 justify-content-center text-center p-4">
           <img src="public/img/logo_izrezan.png" class="img-thumbnail" alt="Tim-11">
@@ -93,6 +94,11 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="razmak"></div>
+      <div class="text-center">
+        <p class="display-5">Broj posjetioca:</p>
+        <div id="brojac_posjetioca" class="display-6"></div>
       </div>
     </div>
   </body>
