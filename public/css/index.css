@@ -1,5 +1,8 @@
-.body{
-    background-color: #e0e0e2 !important;
+body{
+    background-color: #dcdfe0 !important;
+}
+.navbar{
+    background-color: #276EA8 !important;
 }
 .razmak{
     height: 30px;
